@@ -1,0 +1,62 @@
+.title{
+	font-size: 30px;
+	font-weight: bold;
+	color: white;
+	letter-spacing: 10px;
+}
+.banner{
+	width: 1000px;
+	
+	margin: 30px auto 0;
+}
+.banner_img{
+	width:1000px ;
+	height: 100%;
+}
+.banner_height{
+	height: 315px !important;
+}
+.m-td-margin{
+	margin-left: 20px;
+}
+.logo-header{
+	font-size: 30px;
+	text-indent: 40px;
+	padding: 10px 0;
+}
+.logoWarp{
+	display: flex !important;
+	flex-direction: row !important;
+}
+.logoWarp img{
+	width: 100px;
+	height: 100px;
+	padding: 10px;
+	border-radius: 20%;
+}
+.m-padding{
+	width: 90%;
+	height: 30px;
+	line-height:30px ;
+	margin: 5px;
+	
+}
+.friend{
+	width:40%;
+}
+.bottom{
+	margin-top: 50px;
+	width: 100%;
+	height: 200px;
+	background: #999;
+}
+.form-container  {
+  max-width: 500px;
+  margin: 0 auto;
+}
+.inputTitle{
+	width: 99%;
+	height: 4.525rem;
+	font-size: 2.125rem;
+	line-height:4.525rem ;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>我的博客</title>
+		<link rel="stylesheet" href="../css/bootstrap.min.css">
+		<link rel="stylesheet" href="../layui/css/layui.css" media="all">
+		<link rel="stylesheet" href="../css/index.css" />
+		<style>
+			.title1{
+				font-size: 20px;
+				font-weight: bold;
+			}
+			.title2{
+				text-align: center;
+				font-size: 18px;
+				font-weight: bold;
+				background: #FBFBFB;
+				padding: 10px 0;
+				margin-top: 5px;
+				border-left: 5px solid #009688;
+			}
+			.pay{
+				width: 300px;
+				margin-top: 50px;
+			}
+		</style>
+	</head>
+	<body>
+		<ul class="layui-nav" lay-filter="">
+
+			<li class="layui-nav-item">
+				<a href="index.html">
+					<h1 class="title">羽扇博客</h1>
+				</a>
+			</li>
+			<!-- <li class="layui-nav-item">
+				<a href="javascript:;">技术分享</a>
+				<dl class="layui-nav-child">
+					<!-- 二级菜单 
+					<dd><a href="">java分享</a></dd>
+					<dd><a href="">前端分享</a></dd>
+					<dd><a href="">移动开发</a></dd>
+				</dl>
+			</li> -->
+			<li class="layui-nav-item"><a href="index.html">技术分享</a></li>
+			<li class="layui-nav-item"><a href="moodEssay.html">心情随笔</a></li>
+			<li class="layui-nav-item layui-this"><a href="SupportAuthor.html">支持作者</a></li>
+			<li class="layui-nav-item"><a href="leaveMessages.html">给我留言</a></li>
+		</ul>
+		<ul class="layui-nav  layui-layout-right">
+			<li class="layui-nav-item">
+				<a href="signup.html">注册</a>
+			</li>
+			<li class="layui-nav-item">
+				<a href="login.html">登陆</a>
+			</li>
+		</ul>
+		<div style="height: 30px;"></div>
+		<div class="layui-container">
+			<div class="layui-row">
+				<div class="layui-col-md12 ">
+					<div class="layui-card-header title1">赞助作者</div>
+					<p class="title2">如果您喜欢我的文章，感觉我的文章对您有帮助，不妨动动您的金手指给予小额赞助，予人玫瑰，手有余香，不胜感激。</p>
+					<p class="title2">赞助方式一</p>
+					<center>
+						<p style="margin-top: 50px; font-weight: 700;">手机微信扫一扫</p>
+						<img class="pay" src="../img/wechat_pay.png" />
+					</center>
+					
+					<p class="title2">赞助方式二</p>
+					<center>
+						<p style="margin-top: 50px; font-weight: 700;">手机支付宝扫一扫</p>
+						<img class="pay" src="../img/aliPay.jpg" />
+					</center>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script src="../js/jquery.min.js"></script>
+	<script src="../layui/layui.js"></script>
+	<script src="../js/tabChange.js"></script>
+	<script>
+		changeBar();
+	</script>
+	
+</html>
